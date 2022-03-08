@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<main
+  className="main"
+>
+  <h1
+    className="heading"
+  >
+    TO-DO
+  </h1>
+  <div
+    className="container"
+  >
+    <form
+      className="form_container"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input"
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="Task to be done..."
+        type="text"
+        value=""
+      />
+      <button
+        className="submit_btn"
+        data-testid="button"
+        disabled={true}
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+    <h2
+      className="no_tasks"
+    >
+      No tasks
+    </h2>
+  </div>
+</main>
+`;
+
+exports[`matches snapshot with todos 1`] = `
+<main
+  className="main"
+>
+  <h1
+    className="heading"
+  >
+    TO-DO
+  </h1>
+  <div
+    className="container"
+  >
+    <form
+      className="form_container"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input"
+        data-testid="input"
+        onChange={[Function]}
+        placeholder="Task to be done..."
+        type="text"
+        value=""
+      />
+      <button
+        className="submit_btn"
+        data-testid="button"
+        disabled={true}
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+    <div
+      className="task_container"
+      data-testid="task-container"
+    >
+      <input
+        checked={false}
+        className="check_box"
+        data-testid="checkbox"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <p
+        className="task_text"
+        data-testid="task_text1"
+      >
+        hello
+      </p>
+      <button
+        className="edit_task"
+        data-testid="edit-btn"
+        onClick={[Function]}
+      >
+        ✎
+      </button>
+      <button
+        className="remove_task"
+        data-testid="delete-btn"
+        onClick={[Function]}
+      >
+        ✖
+      </button>
+    </div>
+    <div
+      className="task_container"
+      data-testid="task-container"
+    >
+      <input
+        checked={false}
+        className="check_box"
+        data-testid="checkbox"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <p
+        className="task_text"
+        data-testid="task_text2"
+      >
+        world
+      </p>
+      <button
+        className="edit_task"
+        data-testid="edit-btn"
+        onClick={[Function]}
+      >
+        ✎
+      </button>
+      <button
+        className="remove_task"
+        data-testid="delete-btn"
+        onClick={[Function]}
+      >
+        ✖
+      </button>
+    </div>
+  </div>
+</main>
+`;

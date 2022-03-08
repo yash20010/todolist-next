@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<h2
+  className="no_tasks"
+>
+  No tasks
+</h2>
+`;
+
+exports[`matches snapshot with two todos 1`] = `
+Array [
+  <div
+    className="task_container"
+    data-testid="task-container"
+  >
+    <input
+      checked={false}
+      className="check_box"
+      data-testid="checkbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <p
+      className="task_text"
+      data-testid="task_text1"
+    >
+      hello
+    </p>
+    <button
+      className="edit_task"
+      data-testid="edit-btn"
+      onClick={[Function]}
+    >
+      ✎
+    </button>
+    <button
+      className="remove_task"
+      data-testid="delete-btn"
+      onClick={[Function]}
+    >
+      ✖
+    </button>
+  </div>,
+  <div
+    className="task_container"
+    data-testid="task-container"
+  >
+    <input
+      checked={false}
+      className="check_box"
+      data-testid="checkbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <p
+      className="task_text"
+      data-testid="task_text2"
+    >
+      world
+    </p>
+    <button
+      className="edit_task"
+      data-testid="edit-btn"
+      onClick={[Function]}
+    >
+      ✎
+    </button>
+    <button
+      className="remove_task"
+      data-testid="delete-btn"
+      onClick={[Function]}
+    >
+      ✖
+    </button>
+  </div>,
+]
+`;

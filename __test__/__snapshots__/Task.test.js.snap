@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1 - completed false 1`] = `
+<div
+  className="task_container"
+  data-testid="task-container"
+>
+  <input
+    checked={false}
+    className="check_box"
+    data-testid="checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <p
+    className="task_text"
+    data-testid="task_text1234"
+  >
+    hello
+  </p>
+  <button
+    className="edit_task"
+    data-testid="edit-btn"
+    onClick={[Function]}
+  >
+    ✎
+  </button>
+  <button
+    className="remove_task"
+    data-testid="delete-btn"
+    onClick={[Function]}
+  >
+    ✖
+  </button>
+</div>
+`;
+
+exports[`matches snapshot 2 - completed true 1`] = `
+<div
+  className="task_container"
+  data-testid="task-container"
+>
+  <input
+    checked={true}
+    className="check_box"
+    data-testid="checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <p
+    className="task_text line_through"
+    data-testid="task_text1234"
+  >
+    hello
+  </p>
+  <button
+    className="edit_task"
+    data-testid="edit-btn"
+    onClick={[Function]}
+  >
+    ✎
+  </button>
+  <button
+    className="remove_task"
+    data-testid="delete-btn"
+    onClick={[Function]}
+  >
+    ✖
+  </button>
+</div>
+`;
