@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Form from '../components/Form.jsx'
 import TodoList from '../components/TodoList.jsx'
 
-const url = 'http://localhost:3000/api/task'
+const url = 'https://todolist-next-eta.vercel.app/api/task'
 
 export default function Home(props) {
   const [tasks, setTasks] = useState(props.tasks)
